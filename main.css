@@ -1,0 +1,284 @@
+/**********GENERAL**********/
+body {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.template-div {
+    width: 74%;
+    margin: 0 auto;
+}
+
+.theme-back-color {
+    background-color: rgb(139 170 214);
+}
+
+.theme-color {
+    color: rgb(139 170 214);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-space-arount {
+    justify-content: space-around;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-item-center {
+    align-items: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+
+
+/**********NAVIGATION**********/
+nav {
+    background-color: black;
+    color: white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    align-items: center;
+}
+
+nav>div {
+    margin: 0 0;
+}
+
+nav ul {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid rgb(122, 118, 118);
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    padding: 4px 18px;
+    display: block;
+    cursor: pointer;
+    color: white
+}
+
+#nav-contact {
+    text-align: right;
+}
+
+#nav-contact i {
+    margin: 0 8px 0 0;
+}
+
+#nav-first-link {
+    padding-left: 0 !important;
+}
+
+
+/**********HEADER**********/
+header {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("./images/01.png");
+    color: white;
+    height: 740px;
+}
+
+header>div {
+    height: 100%;
+}
+
+header h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    word-spacing: 0.1em;
+    margin: 30px 0;
+}
+
+header h3 {
+    letter-spacing: 0.3em;
+}
+
+header button {
+    padding: 17px 28px;
+    border-radius: 15px;
+}
+
+
+/**********CONTENT**********/
+main {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#content-header {
+    margin: 94px auto 100px auto;
+}
+
+#content-header h2 {
+    margin-bottom: 5px;
+    font-size: 1.95rem;
+}
+
+#content-header span {
+    margin-top: 8px;
+    display: block;
+    font-size: 1.25rem;
+}
+
+.discuss-card {
+    padding: 20px 20px;
+    width: 434px;
+    height: 500px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 16px 2px rgba(220, 220, 220, 1);
+    -moz-box-shadow: 0px 0px 16px 2px rgba(220, 220, 220, 1);
+    box-shadow: 0px 0px 16px 2px rgba(220, 220, 220, 1);
+}
+
+.discuss-card p {
+    font-size: 1.3rem;
+}
+
+.card-logo {
+    padding: 14px 0 6px 0;
+}
+
+.card-logo i {
+    border: 2px solid rgba(231, 231, 231, 1);
+    padding: 30px
+}
+
+.card-button {
+    margin: 60px auto;
+}
+
+.card-button button {
+    margin: 0 auto;
+    padding: 17px 28px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    border: 0px;
+    color: white
+}
+
+#content-card-box {
+    margin-bottom: 100px;
+}
+
+main hr {
+    color: rgba(220, 220, 220, 1);
+}
+
+/**********FOOTER**********/
+footer {
+    margin-top: 120px;
+}
+
+footer hr {
+    color: rgb(25, 70, 109)
+}
+
+#footer-top {
+    padding: 70px 0;
+    background-color: rgb(1, 50, 93);
+}
+
+#footer-bottom {
+    background-color: rgb(1, 43, 80);
+    padding-top: 26px;
+    padding-bottom: 26px;
+    color: rgb(170, 170, 170);
+    font-size: 1.2rem;
+}
+
+.footer-column {
+    width: 22%;
+}
+
+.footer-card-header {
+    color: white;
+    margin-top: 32px;
+    margin-bottom: 48px;
+    font-size: 1.4rem;
+}
+
+.footer-card-address {
+    color: rgb(170, 170, 170);
+    padding: 14px 10px 14px 10px;
+}
+
+.footer-card-address i {
+    margin-right: 24px;
+}
+
+#footer-social {
+    margin-top: 32px;
+}
+
+#footer-social a {
+    margin-right: 10px;
+}
+
+#footer-social i {
+    padding: 10px;
+    border: 1px solid rgb(1, 43, 80);
+    border-radius: 50%;
+    background-color: rgb(1, 43, 80);
+    color: white;
+    font-size: 1.6rem;
+}
+
+.footer-card-link {
+    padding: 14px 0px;
+}
+
+.footer-card-link a {
+    color: rgb(139, 170, 214);
+}
+
+#footer-card-form p {
+    color: rgb(170, 170, 170);
+}
+
+#footer-card-form input {
+    background-color: rgb(1, 43, 80);
+    border: 0px;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 18px 0;  
+    width: 95%; 
+}
+
+#footer-card-form button {
+    padding: 13px 30px;
+    border-radius: 14px;
+    border: 0px;
+    color: white;
+    margin-top: 14px; 
+}
+
+#footer-template {
+    text-align: right;
+}
